@@ -14,7 +14,7 @@ Webhooks are automated messages sent from apps when something happens. They have
 
     ![List of GitHub webhook](images/webhook-list.png)
 
-3. The next step is to create a new job in Jenkins with an SSH connection to GitHub already set up as explained in [](https://github.com/bradley-woods/tech230-cicd/blob/main/jenkins-ssh.md).
+3. The next step is to create a new job in Jenkins with an SSH connection to GitHub already set up as explained [here](https://github.com/bradley-woods/tech230-cicd/blob/main/jenkins-ssh.md).
 
 4. Next, in the Configuration settings of the job, go to 'Office 365 Connector' and tick the box for 'Restrict where this project can be run' and enter the name of the Master Node. Since, this node is serviced by an AWS Cloud Auto Scaling Group, if it needs additional servers (EC2 instances) it will automatically create them for the purpose of this job.  
 
