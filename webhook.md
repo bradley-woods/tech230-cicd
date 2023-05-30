@@ -4,6 +4,8 @@ Webhooks are automated messages sent from apps when something happens. They have
 
 ## GitHub Webhook Setup for Jenkins
 
+![GitHub Webhook Setup for Jenkins](images/jenkins-github-webhook.png)
+
 1. The first step is to create the webhook on the GitHub repository by going to the repo 'Settings' > 'Webhooks' and clicking 'Add webhook'. We then need to enter the 'Payload URL' which is the IP of the Jenkins server with 'github-webhooks' added to the end.
 
     ![GitHub webhook](images/github-webhook.png)
@@ -24,10 +26,18 @@ Webhooks are automated messages sent from apps when something happens. They have
 
     ![GitHub trigger](images/jenkins-git-trigger.png)
 
-    This allows Jenkins to listen to GitHub for any Push commands there is a change made to the repository defined in the SCM Git section (webhook endpoint).
+    This allows Jenkins to listen to GitHub for any 'push' commands using the newly created webhook. So, when there is a change made to the repository defined in the SCM Git section, the Jenkins build will run.
 
 ## Automated Testing
 
-1. Finally, in the build section we can enter our commands to perform the tests on build, which will be triggered everytime the GitHub repo is updated, meaning we have successfully setup automated testing.
+1. Finally, in the build section we can enter our commands to perform automated tests on build, which will be triggered every time the GitHub repo is updated, meaning we have successfully set up automated testing.
 
     ![Automated testing](images/jenkins-shell.png)
+
+2. If we click 'Polling Log' on the left side, we can see the build log and what caused the build to be triggered, in this case it was the 'push' event to the GitHub webhook.
+
+    ![Automated testing log](images/jenkins-polling-log.png)
+
+3. Finally, we can also look at the 'Console Output' and see that the automated testing was successful:
+
+    ![Automated testing log](images/jenkins-pass-tests.png)
