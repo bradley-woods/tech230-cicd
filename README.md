@@ -23,10 +23,6 @@ CI/CD is a methodology to continually integrate, deliver and deploy applications
 - More efficient infrastructure
 - Collaboration and communication
 
-## Webhooks
-
-Webhooks are automated messages sent from apps when something happens. They have a message or payload and are sent to a unique URL (the app's phone number or address). E.g. an automated email you receive when ordering an item.
-
 ## Jenkins
 
 Jenkins is an open-source automation server and CI/CD tool which aims to automate the different phases of the SDLC such as build, test and deployment by implementing CI/CD workflows called **Pipelines**.
