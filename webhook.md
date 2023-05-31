@@ -34,7 +34,7 @@ Webhooks are automated messages sent from apps when something happens. They have
 
     ![Automated testing](images/jenkins-shell.png)
 
-2. If we click 'Polling Log' on the left side, we can see the build log and what caused the build to be triggered, in this case it was the 'push' event to the GitHub webhook.
+2. If we click 'GitHub Hook Log' on the left side, we can see the build log and what caused the build to be triggered, in this case it was the 'push' event to the GitHub webhook.
 
     ![Automated testing log](images/jenkins-polling-log.png)
 
