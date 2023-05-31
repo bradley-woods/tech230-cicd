@@ -16,7 +16,7 @@ In this guide we will continue to automate the CI/CD pipeline by automating the 
 
 4. Create a new job, for example 'bradley-ci-merge' which will be used to merge the development changes to the main branch if the first job's build was successful.
 
-5. We will continue configuring this job in the same way as with previous jobs, specifying to track changes from the `dev` branch. 
+5. We will continue configuring this job in the same way as with previous jobs, specifying to track changes from the `dev` branch.
 
     However, we also need to add an 'Additional Behaviour' to 'Merge before build' using the `origin` repository to merge changes to the `main` branch, leaving it as the default merge strategy as shown below:
 
