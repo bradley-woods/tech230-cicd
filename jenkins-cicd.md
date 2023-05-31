@@ -2,6 +2,8 @@
 
 In this guide we will continue to automate the CI/CD pipeline by automating the merge process from the development branch to the production branch and deploying the merged changes to an AWS EC2 instance.
 
+![Jenkins CICD flow](images/cicd-flow-diagram.png)
+
 ## Continuous Integration and Delivery
 
 1. Firstly, make sure you have two branches on your repository such as `dev` and `main`. To create a new branch and checkout to it use the following command:
