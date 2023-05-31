@@ -30,14 +30,18 @@ Webhooks are automated messages sent from apps when something happens. They have
 
 ## Automated Testing
 
-1. Finally, in the build section we can enter our commands to perform automated tests on build, which will be triggered every time the GitHub repo is updated, meaning we have successfully set up automated testing.
+1. Now, we want to set up automated testing for the application. Go to 'Build Environment' and check the box to 'Provide Node & npm bin/folder to PATH' to install NodeJS.
+
+    ![Build Env](images/jenkins-env.png)
+
+2. Next, in the build section we can enter our commands to perform automated tests on build, which will be triggered every time the GitHub repo is updated, meaning we have successfully set up automated testing.
 
     ![Automated testing](images/jenkins-shell.png)
 
-2. If we click 'GitHub Hook Log' on the left side, we can see the build log and what caused the build to be triggered, in this case it was the 'push' event to the GitHub webhook.
+3. If we click 'GitHub Hook Log' on the left side, we can see the build log and what caused the build to be triggered, in this case it was the 'push' event to the GitHub webhook.
 
     ![Automated testing log](images/jenkins-polling-log.png)
 
-3. Finally, we can also look at the 'Console Output' and see that the automated testing was successful:
+4. Finally, we can also look at the 'Console Output' and see that the automated testing was successful:
 
     ![Automated testing log](images/jenkins-pass-tests.png)
