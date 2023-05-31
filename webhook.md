@@ -41,3 +41,4 @@ Webhooks are automated messages sent from apps when something happens. They have
 3. Finally, we can also look at the 'Console Output' and see that the automated testing was successful:
 
     ![Automated testing log](images/jenkins-pass-tests.png)
+    
