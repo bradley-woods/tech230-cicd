@@ -6,9 +6,9 @@ CI/CD is a methodology to continually integrate, deliver and deploy applications
 
 **Continuous Integration** (CI) aims to automate the **Build** and **Test** phases of the SDLC which helps developers continually merge work to a centralised repository which can then be automatically tested.
 
-**Continuous Delivery** (CD) further automates the SDLC by automatically integrating and delivering the code to the **Staging** environment ready to be manually deployed to Production.
+**Continuous Delivery** (CDE) further automates the SDLC by automatically integrating and delivering the code to the **Staging** environment ready to be manually deployed to Production.
 
-**Continuous Deployment** (CDE) takes it one step further and fully automates the SDLC by including the **Production** deployment into the automation pipeline.
+**Continuous Deployment** (CD) takes it one step further and fully automates the SDLC by including the **Production** deployment into the automation pipeline.
 
 ![CD vs CDE](images/cdcde.png)
 
