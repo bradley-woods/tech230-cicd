@@ -1,8 +1,22 @@
 # CI/CD with Jenkins
 
+## Contents of Repository
+
+   1. [Connecting GitHub and Jenkins using SSH](https://github.com/bradley-woods/tech230-cicd/blob/main/jenkins-ssh.md)
+
+   2. [GitHub Webhook Setup for Jenkins](https://github.com/bradley-woods/tech230-cicd/blob/main/github-webhooks.md)
+
+   3. [CI/CD using Jenkins](https://github.com/bradley-woods/tech230-cicd/blob/main/jenkins-cicd.md)
+
+   4. [Creating a Jenkins Server](https://github.com/bradley-woods/tech230-cicd/blob/main/jenkins-server.md)
+
 CI/CD is a methodology to continually integrate, deliver and deploy applications to clients through the use of automation pipelines which aim to automate each phase of the SDLC.
 
-## CI/CD/CDE
+## CI/CD
+
+CI/CD is a methodology to continually integrate, deliver and deploy applications to clients through the use of automation pipelines which aim to automate each phase of the SDLC.
+
+## CI vs CDE vs CD
 
 **Continuous Integration** (CI) aims to automate the **Build** and **Test** phases of the SDLC which helps developers continually merge work to a centralised repository which can then be automatically tested.
 

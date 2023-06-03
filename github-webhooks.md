@@ -1,8 +1,8 @@
-# Webhooks
+# GitHub Webhook Setup for Jenkins
+
+## Webhooks
 
 Webhooks are automated messages sent from apps when something happens. They have a message or payload and are sent to a unique URL (the app's phone number or address). E.g. an automated email you receive when ordering an item.
-
-## GitHub Webhook Setup for Jenkins
 
 ![GitHub Webhook Setup for Jenkins](images/jenkins-github-webhook.png)
 
