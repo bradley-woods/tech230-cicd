@@ -12,7 +12,7 @@ In this guide we will continue to automate the CI/CD pipeline by automating the 
     $ git checkout -b <branch-name>
     ```
 
-2. In Jenkins, create a job, for example 'bradley-ci' to fetch a GitHub repository using a Webhook and perform automated testing as shown in [here](https://github.com/bradley-woods/tech230-cicd/blob/main/webhook.md).
+2. In Jenkins, create a job, for example 'bradley-ci' to fetch a GitHub repository using a Webhook and perform automated testing as shown in [here](https://github.com/bradley-woods/tech230-cicd/blob/main/webhooks.md).
 
 3. Ensure the job tracks the specified `dev` branch. This way it will clone everything on the `dev` branch in the GitHub repository.
 

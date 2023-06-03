@@ -32,7 +32,7 @@ Webhooks are automated messages sent from apps when something happens. They have
 
 1. Now, we want to set up automated testing for the application. Go to 'Build Environment' and check the box to 'Provide Node & npm bin/folder to PATH' to install NodeJS.
 
-    ![Build Env](images/jenkins-env.png)
+    ![Build Env](images/jenkins-node.png)
 
 2. Next, in the build section we can enter our commands to perform automated tests on build, which will be triggered every time the GitHub repo is updated, meaning we have successfully set up automated testing.
 
